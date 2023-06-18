@@ -94,3 +94,9 @@ i {
 .items-list li:nth-child(odd) {
     background-color: var(--background-color-list);
 };
+
+@media screen and (max-width: 796px) {
+    .fl-container{
+        flex-direction: column;
+    }
+}
